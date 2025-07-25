@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+}
+
+body {
+    background: url(assets/preto2.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+
+
+h1 {
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
+}
+
+img {
+    width: 118px;
+
+}
+
+.imagem {
+    border: 1px solid;
+    text-align: center;
+}
+
+.imagem a {
+    text-decoration: none;
+    border: 1px solid;
+
+}
