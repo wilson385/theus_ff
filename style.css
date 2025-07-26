@@ -88,6 +88,7 @@ ul {
     max-width: 588px;
     cursor: pointer;
     
+    
 }
 
 ul li a {
@@ -99,6 +100,7 @@ ul li a {
     padding: 16px 24px;
     transition: 1.0s;
     font-weight: bolder;
+    margin: 12px;
 }
 
 
