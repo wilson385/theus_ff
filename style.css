@@ -1,35 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
     color: white;
 }
 
 body {
     background: url(assets/preto2.jpg) no-repeat top center/cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+header {
+    background: rgb(1, 8, 19);
+    border-radius: 2px;
+}
 
 h1 {
-    border: 1px solid;
     text-align: center;
     padding: 4px;
+     font-family: "Courgette", cursive;
+     font-weight: bolder;
+     color: rgb(130, 143, 121);
 }
+
+.name-rodape {
+    color: rgb(95, 6, 6);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+    
+}
+
+
 
 img {
     width: 118px;
 
 }
 
-.imagem {
-    border: 1px solid;
+.caixa-imagem {
     text-align: center;
+    margin-top: 7rem;
+    
+
 }
 
-.imagem a {
+ a {
     text-decoration: none;
-    border: 1px solid;
 
 }
+
+.name-img {
+    padding-left: 10px;
+    font-weight: bolder;
+    transition: 0.8s;
+    
+}
+
+.name-img:hover {
+    color: rgb(5, 78, 41);
+}
+
+.frase-impactante {
+    text-align: center;
+    margin-top: 18px;
+    font-family: "Schoolbell", cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 588px;
+    cursor: pointer;
+    
+}
+
+ul li {
+    border: 2px solid rgb(5, 5, 68);
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px;
+    transition: 0.9s;
+    font-weight: bolder;
+
+}
+
+li:hover {
+    background-color: rgb(1, 31, 31);
+}
+
+.download {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+h3 {
+font-weight: bolder;
+color: chartreuse;
+font-family: "Schoolbell", cursive;
+}
+
+.apk {
+font-weight: 600;
+}
+
+.apk:hover {
+    color: blueviolet;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+}
+
+.desenvolvedor {
+    transition: 0.9s;
+   
+}
+
+.desenvolvedor:hover {
+    color: #0d4863;
+    
+
+}
+
+
