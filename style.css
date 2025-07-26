@@ -96,7 +96,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 16px 24px;
     transition: 1.0s;
     font-weight: bolder;
 }
