@@ -22,11 +22,11 @@ h1 {
     padding: 4px;
      font-family: "Courgette", cursive;
      font-weight: bolder;
-     color: rgb(130, 143, 121);
+     color: rgb(211, 223, 203);
 }
 
 .name-rodape {
-    color: rgb(95, 6, 6);
+    color: rgb(180, 13, 13);
 }
 
 .container {
@@ -48,7 +48,7 @@ img {
 
 .caixa-imagem {
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 4rem;
     
 
 }
@@ -87,6 +87,7 @@ ul {
     max-width: 588px;
     cursor: pointer;
     
+    
 }
 
 ul li {
@@ -96,6 +97,8 @@ ul li {
     padding: 12px;
     transition: 0.9s;
     font-weight: bolder;
+    margin: 8px;
+    
 
 }
 
