@@ -37,6 +37,8 @@ h1 {
     padding: 8px;
     
     
+    
+    
 }
 
 
@@ -101,6 +103,9 @@ ul li a {
     transition: 1.0s;
     font-weight: bolder;
     margin: 12px;
+    width: 90%;
+    
+    
 }
 
 
