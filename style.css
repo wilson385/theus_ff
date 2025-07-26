@@ -92,8 +92,10 @@ ul {
 
 ul li a {
     border: 1px solid rgb(6, 6, 71);
+    border-radius: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     transition: 1.0s;
     font-weight: bolder;
