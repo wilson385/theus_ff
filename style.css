@@ -77,6 +77,7 @@ img {
     font-size: 18px;
 }
 
+
 ul {
     margin-top: 35px;
     list-style: none;
@@ -87,12 +88,20 @@ ul {
     max-width: 588px;
     cursor: pointer;
     
-    
-    
 }
 
-ul li {
-    border: 2px solid rgb(5, 5, 68);
+ul li a {
+    border: 1px solid rgb(6, 6, 71);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transition: 1.0s;
+    font-weight: bolder;
+}
+
+
+ /* ul li  {
+    border: 1px solid rgb(6, 6, 71);
     border-radius: 4px;
     text-align: center;
     padding: 12px;
@@ -101,10 +110,10 @@ ul li {
     margin: 8px;
     
 
-}
+}  */
 
 
-li:hover {
+ul li a:hover {
     background-color: rgb(1, 31, 31);
 }
 
