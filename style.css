@@ -143,11 +143,10 @@ font-family: "Schoolbell", cursive;
 
 .apk {
 font-weight: 600;
+color: rgb(120, 55, 180);
 }
 
-.apk:hover {
-    color: blueviolet;
-}
+
 
 footer {
     text-align: center;
